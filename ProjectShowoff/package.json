@@ -1,0 +1,9 @@
+{
+  "name": "project-showoff",
+  "version": "0.0.0",
+  "description": "ProjectShowoff",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}
