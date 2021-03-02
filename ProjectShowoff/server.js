@@ -1,11 +1,11 @@
 'use strict';
 var http = require('http');
-var port = 1337;
+var port = process.env.PORT || 1337;
 var fs = require('fs');
 
 http.createServer(function (req, res) {
     switch (req.url) {
-        case '/':
+        case '/': 
             fs.readFile('Home.html', function (err, data) {
                 res.writeHead(200, { 'Content-Type': 'text/html' });
                 res.write(data);
