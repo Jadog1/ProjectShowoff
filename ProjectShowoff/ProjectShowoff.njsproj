@@ -34,6 +34,9 @@
     <Content Include="Home.html">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="ImageDistort.html">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="SeniorGame.html">
       <SubType>Code</SubType>
     </Content>
